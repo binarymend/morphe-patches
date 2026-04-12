@@ -1,3 +1,10 @@
+## [1.0.1-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.0.0...v1.0.1-dev.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* donation description ([704fd19](https://github.com/binarymend/morphe-patches/commit/704fd19f1559e100e1c05d6159b142a514de37ee))
+
 # 1.0.0 (2026-04-12)
 
 
