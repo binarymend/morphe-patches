@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-04-12T21:18:25",
-  "description": "## [1.0.1-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.0.0...v1.0.1-dev.1) (2026-04-12)\n\n\n### Bug Fixes\n\n* donation description ([704fd19](https://github.com/binarymend/morphe-patches/commit/704fd19f1559e100e1c05d6159b142a514de37ee))",
-  "download_url": "https://github.com/binarymend/morphe-patches/releases/download/v1.0.1-dev.1/patches-1.0.1-dev.1.mpp",
-  "signature_download_url": "https://github.com/binarymend/morphe-patches/releases/download/v1.0.1-dev.1/patches-1.0.1-dev.1.mpp.asc",
-  "version": "1.0.1-dev.1"
+  "created_at": "2026-04-12T21:20:10",
+  "description": "## [1.0.1](https://github.com/binarymend/morphe-patches/compare/v1.0.0...v1.0.1) (2026-04-12)\n\n\n### Bug Fixes\n\n* donation description ([b0aea76](https://github.com/binarymend/morphe-patches/commit/b0aea76e2eeb8cc8b096c6dcc2f145688b1dce9f))\n* donation description ([704fd19](https://github.com/binarymend/morphe-patches/commit/704fd19f1559e100e1c05d6159b142a514de37ee))",
+  "download_url": "https://github.com/binarymend/morphe-patches/releases/download/v1.0.1/patches-1.0.1.mpp",
+  "signature_download_url": "https://github.com/binarymend/morphe-patches/releases/download/v1.0.1/patches-1.0.1.mpp.asc",
+  "version": "1.0.1"
 }
