@@ -14,4 +14,12 @@ object Constants {
             AppTarget(version = null)
         )
     )
+
+    val COMPATIBILITY_TRUECALLER = Compatibility(
+                    name = "Truecaller",
+                    packageName = "com.truecaller",
+                    apkFileType = ApkFileType.APK,
+                    appIconColor = 0x0087ff,
+                    targets = listOf(AppTarget(version = "26.12.5"))
+            )
 }

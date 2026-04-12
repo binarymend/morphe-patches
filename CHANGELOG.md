@@ -1,3 +1,10 @@
+## [1.0.2-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.0.1...v1.0.2-dev.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* compability for truecaller ([5a2fc84](https://github.com/binarymend/morphe-patches/commit/5a2fc8409165369d4f03c7de95c2a75f4635ca8d))
+
 ## [1.0.1](https://github.com/binarymend/morphe-patches/compare/v1.0.0...v1.0.1) (2026-04-12)
 
 
