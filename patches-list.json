@@ -1,4 +1,15 @@
 {
-  "version": "",
-  "patches": []
+  "version": "1.0.0-dev.1",
+  "patches": [
+    {
+      "name": "Quick Cursor PRO",
+      "description": "Unlock all PRO features",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.quickcursor": null
+      },
+      "options": []
+    }
+  ]
 }

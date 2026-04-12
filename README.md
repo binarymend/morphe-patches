@@ -1,82 +1,54 @@
-# 👋🧩 Morphe Patches template
+# 🛠️ binarymend's Morphe Patches
 
-Template repository for Morphe Patches.
+![License](https://img.shields.io/github/license/binarymend/morphe-patches)
+![Last Commit](https://img.shields.io/github/last-commit/binarymend/morphe-patches)
 
-&nbsp;
-## ❓ About
+A collection of custom Android patches built using the **Morphe** framework. Focused on enhancing productivity and unlocking premium features.
 
-This is a template to create a new Morphe Patches repository.
+> [!NOTE]
+> Patch requests are welcome, so feel free to [open an issue](../../issues).
 
-Morphe Patches template is based off the prior work of [ReVanced](https://github.com/ReVanced/revanced-patches-template).
-All modifications made by Morphe, along with their dates, can be found in the Git history.
+## 📱 How to Use
 
+1. Open **Morphe Manager** on your device.
+2. Go to the **Repositories** tab.
+3. Tap on **Add Repository** and paste the following link:
+   ```text
+   https://github.com/binarymend/morphe-patches
 
-## 🚀 Get started
+## 📋 Available Patches
 
-To start using this template, follow these steps:
+| App | Package | Patches |
+| :--- | :--- | :--- |
+| Quick Cursor | `com.quickcursor` | • Unlock PRO |
 
-1. [Create a new repository using this template](https://github.com/new?template_name=morphe-patches-template&template_owner=MorpheApp)
-2. Set up the [build.gradle.kts](patches/build.gradle.kts) file (Specifically, the 
-   [group of the project](patches/build.gradle.kts#L1), and the [About](patches/build.gradle.kts#L5-L11))
-3. Set up the [README.md](README.md) file[^1] (e.g, title, description, license, summary of the patches
-that are included in the repository), the [issue templates](.github/ISSUE_TEMPLATE)[^2]  and the [contribution guidelines](CONTRIBUTING.md)[^3]
-4. Choose a name for your patches project. Keep in mind you must use a unique name that does not 
-   imply or suggest authorship by the Morphe open source project. If unsure, then simply name these
-   patches after yourself ("UserXYZ Morphe patches"). See the [NOTICE](NOTICE) for details. 
-5. (Optional): Add `patches-bundle.png` to the project if you want a custom icon to show in
-   Morphe Manager instead of your GitHub profile avatar.
+---
 
-🎉 You are now ready to start creating patches!
+## 🏗️ Building from Source
 
-## 🧑‍💻 Usage
+1. Clone the repo: `git clone https://github.com/binarymend/morphe-patches.git`
+2. Setup `local.properties` with your Android SDK path.
+3. Setup `gradle.properties` with your GPR credentials.
+4. Run: `./gradlew clean build`
 
-To develop and release Morphe Patches using this template, some things need to be considered:
+---
+## ❤️ Support
 
-- Development starts in feature branches. Once a feature branch is ready, it is squashed and merged into the `dev` branch
-- The `dev` branch is merged into the `main` branch once it is ready for release
-- Semantic versioning is used to version Morphe Patches.
-- [Semantic commit](https://kapeli.com/cheat_sheets/Semantic_Commits.docset/Contents/Resources/Documents/index) messages are used for commits
-- Commits on the `dev` branch and `main` branch are automatically released
-via the [release.yml](.github/workflows/release.yml) workflow, which is also responsible for generating the changelog
-and updating the version of Morphe Patches. It is triggered by pushing to the `dev` or `main` branch.
-The workflow uses the `publish` task to publish the release of Morphe Patches.
-- The `buildAndroid` task is used to build Morphe Patches so that it can be used on Android.
+If you find this project useful and want to help support its development, consider [donating](.donate/donate.md).
 
+---
 
-## 🤓 Tips
-- See the [patcher documentation](https://github.com/MorpheApp/morphe-patcher/blob/main/docs/1_patcher_intro.md)
-  for more examples of creating patches and fingerprints.
-- Do not manually edit any generated files such as: `patches-list.json`, `patches-bundle.json`, `CHANGELOG.md`.
-  These files will be automatically updated in the release action.
-- Do not force push any semantic release commits or you will break the release. To 'redo' the last release then:
-  - Git drop the last dev/main semantic release commit you want to redo.
-  - Delete the release from the release area of this repo and delete the tag   
-  - Make any other changes you wish to do
-  - Force push dev/main branch
-  - A new replacement release will be created by `release.yml`
+## ⚖️ Legal Disclaimer
 
+**Use this project at your own risk.**
 
-## 📚 Everything else
+1. **Educational & Research Purposes Only:** This project is strictly for educational use and technical research. It is intended for individuals interested in learning about mobile application architecture, software security analysis, and the inner workings of Android applications.
+2. **No Warranty:** This software is provided "as is" without any warranty of any kind. The author is not responsible for any consequences resulting from the use of these patches, including but not limited to: account suspensions/bans, data loss, or device malfunctions.
+3. **Intellectual Property:** All trademarks, service marks, app names, and logos are the property of their respective owners. This repository does **not** distribute modified APK files or proprietary source code; it only provides patching instructions (binary/bytecode modifications) to be applied by the end-user on their own copy of the application.
+4. **Non-Affiliation:** This project is not affiliated with, authorized, maintained, sponsored, or endorsed by the official developers of the target applications or any of their affiliates or subsidiaries.
+5. **DMCA/Copyright Policy:** I respect intellectual property rights and intellectual property laws. If you are a copyright owner and believe that any content in this repository infringes upon your rights, please contact me directly by [opening a GitHub Issue](https://github.com/binarymend/morphe-patches/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen) before taking formal legal action. I am committed to addressing valid concerns and removing infringing content promptly.
 
-Optionally you can include a button/link in this readme that users can click to add your 
-patches to Morphe (update the links below after creating your new patches repo):
+---
 
-#### How to use these patches
-
-Click here to add these patches to Morphe: https://morphe.software/add-source?github=xyz-user/xyz-patches
-
-Or manually add this repository url as a patch source in Morphe: https://github.com/xyz-user/xyz-patches
-
-### 📙 Contributing
-
-Thank you for considering contributing to UserXYZ Morphe Patches template.  
-You can find the contribution guidelines [here](CONTRIBUTING.md).
-
-### 🛠️ Building
-
-To build UserXYZ Morphe Patches template,
-you can follow the [Morphe documentation](https://github.com/MorpheApp/morphe-documentation).
-
-## 📜 License
-
-UserXYZ Morphe Patches are licensed under the [GNU General Public License v3.0](LICENSE)
+## ❤️ Credits
+- **Morphe Framework:** [MorpheApp](https://github.com/MorpheApp)
