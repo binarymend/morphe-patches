@@ -10,6 +10,30 @@
         "com.quickcursor": null
       },
       "options": []
+    },
+    {
+      "name": "Disable Telemetry",
+      "description": "Disables AppStartTracker and other telemetry points.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.12.5"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Remove Ads",
+      "description": "Disables all ad feature toggles globally.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.12.5"
+        ]
+      },
+      "options": []
     }
   ]
 }
