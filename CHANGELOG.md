@@ -1,3 +1,10 @@
+## [1.1.1-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.1.0...v1.1.1-dev.1) (2026-04-13)
+
+
+### Bug Fixes
+
+* aCalendar packageName ([53b4ea7](https://github.com/binarymend/morphe-patches/commit/53b4ea7540bcec4fe8627bdcc6fdc12aba0cf100))
+
 # [1.1.0](https://github.com/binarymend/morphe-patches/compare/v1.0.3...v1.1.0) (2026-04-13)
 
 
