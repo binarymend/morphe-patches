@@ -1,4 +1,6 @@
 {
+  "name": "binarymend-morphe-patches",
+  "private": true,
   "devDependencies": {
     "@saithodev/semantic-release-backmerge": "^4.0.1",
     "@MorpheApp/changelog": "git+https://github.com/MorpheApp/changelog.git#bundle",
