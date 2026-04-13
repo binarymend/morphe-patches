@@ -1,6 +1,40 @@
 {
-  "version": "1.0.3",
+  "version": "v1.0.0-dev.1",
   "patches": [
+    {
+      "name": "Quick Cursor PRO",
+      "description": "Unlock all PRO features",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.quickcursor": null
+      },
+      "options": []
+    },
+    {
+      "name": "Disable Telemetry",
+      "description": "Disables AppStartTracker and other telemetry points.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.12.5"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Remove Ads",
+      "description": "Disables all ad feature toggles globally.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.12.5"
+        ]
+      },
+      "options": []
+    },
     {
       "name": "Disable Bugsnag Telemetry",
       "description": "Disables Bugsnag crash reporting and analytics.",
@@ -26,40 +60,6 @@
       "options": []
     },
     {
-      "name": "Disable Telemetry",
-      "description": "Disables AppStartTracker and other telemetry points.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.truecaller": [
-          "26.12.5"
-        ]
-      },
-      "options": []
-    },
-    {
-      "name": "Quick Cursor PRO",
-      "description": "Unlock all PRO features",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.quickcursor": null
-      },
-      "options": []
-    },
-    {
-      "name": "Remove Ads",
-      "description": "Disables all ad feature toggles globally.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.truecaller": [
-          "26.12.5"
-        ]
-      },
-      "options": []
-    },
-    {
       "name": "Remove Promoted Pins",
       "description": "Disables ad detection logic globally. Safe for Home feed.",
       "use": true,
@@ -68,6 +68,16 @@
         "com.pinterest": [
           "14.11.0"
         ]
+      },
+      "options": []
+    },
+    {
+      "name": "Unlock aCalendar+",
+      "description": "Unlocks all aCalendar+ features.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "org.withouthat.acalendar": null
       },
       "options": []
     }

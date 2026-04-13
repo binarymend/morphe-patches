@@ -26,6 +26,7 @@ Patch requests and bug reports are welcome in [GitHub Issues](https://github.com
 | Quick Cursor | `com.quickcursor` | Unlock PRO |
 | Truecaller | `com.truecaller` | Disable Telemetry, Remove Ads |
 | Pinterest | `com.pinterest` | Disable Bugsnag Telemetry, Disable General Telemetry, Remove Promoted Pins |
+| aCalendar | `org.withouthat.acalendar` | Unlock aCalendar+ |
 
 ## Building from source
 
