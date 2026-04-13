@@ -32,4 +32,14 @@ object Constants {
             AppTarget(version = "14.11.0")
         )
     )
+
+    val COMPATIBILITY_ACALENDAR = Compatibility(
+        name = "aCalendar",
+        packageName = "org.withouthat.acalendar",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0x3a84c3,
+        targets = listOf(
+            AppTarget(version = null)
+        )
+    )
 }
