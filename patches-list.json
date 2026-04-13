@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.1.0-dev.1",
   "patches": [
     {
       "name": "Disable Bugsnag Telemetry",
@@ -69,6 +69,14 @@
           "14.11.0"
         ]
       },
+      "options": []
+    },
+    {
+      "name": "Unlock aCalendar+",
+      "description": "Unlocks all aCalendar+ features.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": null,
       "options": []
     }
   ]
