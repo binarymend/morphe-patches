@@ -1,13 +1,13 @@
-group = "app.template"
+group = "app.binarymend"
 
 patches {
     about {
-        name = "UserXYZ Patches"
-        description = "Patches for apps I like"
-        source = "git@github.com:UserXYZ/morphe-patches.git"
-        author = "Awesome dev"
-        contact = "na"
-        website = "na"
+        name = "Binarymend Patches"
+        description = "Custom Android patches maintained by Binarymend"
+        source = "https://github.com/binarymend/morphe-patches"
+        author = "binarymend"
+        contact = "https://github.com/binarymend/morphe-patches/issues"
+        website = "https://github.com/binarymend/morphe-patches"
         license = "GPLv3"
     }
 }

@@ -1,30 +1,22 @@
-# 👋 Contribution guidelines
+# Contribution Guidelines
 
-This document describes how to contribute to Morphe Patches template.
+Thanks for contributing to Binarymend Patches.
 
-## 📖 Resources to help you get started
+## Before you start
 
-* [Issues](https://github.com/Morpheapp/morphe-patches-template/issues) are where we keep track of bugs and feature requests
+- Check existing [issues](https://github.com/binarymend/morphe-patches/issues) before opening a new report or feature request.
+- Use the repository issue templates for [bug reports](https://github.com/binarymend/morphe-patches/issues/new?labels=Bug+report&template=bug_report.yml&title=bug%3A+) and [feature requests](https://github.com/binarymend/morphe-patches/issues/new?labels=Feature+request&template=feature_request.yml&title=feat%3A+).
 
-## 🙏 Submitting a feature request
+## Development flow
 
-Features can be requested by opening an issue using the
-[Feature request issue template](https://github.com/MorpheApp/morphe-patches-template/issues/new?labels=Feature+request&template=feature_request.yml&title=feat%3A+).
+1. Open an issue first if the change is non-trivial or changes patch behavior.
+2. Branch from `dev` for normal development work.
+3. Keep commits focused and include context in commit messages.
+4. Open pull requests against `dev`.
+5. When `dev` is ready, it is promoted to `main` for the stable release channel.
 
-## 🐞 Submitting a bug report
+## Release notes
 
-If you encounter a bug while using Morphe Patches template, open an issue using the
-[Bug report issue template](https://github.com/MorpheApp/morphe-patches-template/issues/new?labels=Bug+report&template=bug_report.yml&title=bug%3A+).
-
-## 📝 How to contribute
-
-1. Before contributing, it is recommended to open an issue to discuss your change
-with the maintainers of Morphe Patches template
-2. Development happens on the `dev` branch. Fork the repository and create your branch from `dev`
-3. Commit your changes
-4. Submit a pull request to the `dev` branch of the repository and reference issues
-that your pull request closes in the description of your pull request
-5. Our team will review your pull request and provide feedback. Once your pull request is approved,
-it will be merged into the `dev` branch and will be included in the next release of Morphe Patches template
-
-❤️ Thank you for considering contributing to Morphe Patches template
+- `dev` is the pre-release channel.
+- `main` is the stable channel.
+- `patches-bundle.json` and `patches-list.json` are release-managed files and should not be manually edited to inject release URLs.
