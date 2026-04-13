@@ -5,7 +5,12 @@
 
 Custom Android patches for the **Morphe** framework, maintained by Binarymend.
 
-Patch requests and bug reports are welcome in [GitHub Issues](https://github.com/binarymend/morphe-patches/issues).
+> [!IMPORTANT]
+> **Suggestions for new apps and patches are welcome in [GitHub Issues](https://github.com/binarymend/morphe-patches/issues).**
+>
+> However, please keep in mind that this is a hobby project maintained in my spare time — I have a job and a life outside of coding. I cannot fulfill every request or release patches on demand; doing so would quickly lead to burnout.
+>
+> I generally prioritize popular applications. **If you need frequent updates or have specific requests, that kind of dedicated work requires compensation — my time is not unlimited and not free.** Consider [supporting the project](.donate/donate.md) if you'd like to see faster progress.
 
 ## How to use
 
@@ -20,6 +25,9 @@ Patch requests and bug reports are welcome in [GitHub Issues](https://github.com
 4. Enable **Use pre-release patches** only if you want preview builds from the `dev` channel.
 
 ## Available patches
+
+> [!NOTE]
+> All patches are tested against **APK installs only** on **arm64-v8a** architecture. Other architectures or split APKs are not guaranteed to work.
 
 | App | Package | Patches |
 | :--- | :--- | :--- |
