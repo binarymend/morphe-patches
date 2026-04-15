@@ -1,3 +1,24 @@
+# [1.2.0-dev.3](https://github.com/binarymend/morphe-patches/compare/v1.2.0-dev.2...v1.2.0-dev.3) (2026-04-15)
+
+
+### Features
+
+* **Calcnote:** unlock Calcnote pro ([e88aca4](https://github.com/binarymend/morphe-patches/commit/e88aca49b58fd91a41529bf759d310d5db0a0daf))
+
+# [1.2.0-dev.2](https://github.com/binarymend/morphe-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-04-15)
+
+
+### Features
+
+* **Moon+ Reader:** unlock pro ([7a4a4d7](https://github.com/binarymend/morphe-patches/commit/7a4a4d7471b1ff8b330a61768421fc9cfba84d84))
+
+# [1.2.0-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.1.1...v1.2.0-dev.1) (2026-04-15)
+
+
+### Features
+
+* **Symfonium:** unlock trial version ([4488aca](https://github.com/binarymend/morphe-patches/commit/4488aca166ebc0a182c5b4f2bc8f030d08b8a9b1))
+
 ## [1.1.1](https://github.com/binarymend/morphe-patches/compare/v1.1.0...v1.1.1) (2026-04-13)
 
 

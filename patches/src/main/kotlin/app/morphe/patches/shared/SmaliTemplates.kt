@@ -74,6 +74,28 @@ object SmaliTemplates {
         return "sget-object $reg, $fieldType->$fieldName:$fieldType\nreturn-object $reg"
     }
 
+    fun sputBoolean(classType: String, fieldName: String, value: Boolean): String {
+        val flag = if (value) "0x1" else "0x0"
+        return """
+            const/4 v0, $flag
+            sput-boolean v0, $classType->$fieldName:Z
+        """.trimIndent()
+    }
+
+    fun sputInt(classType: String, fieldName: String, value: Int): String {
+        return """
+            const/16 v0, $value
+            sput v0, $classType->$fieldName:I
+        """.trimIndent()
+    }
+
+    fun sputString(classType: String, fieldName: String, value: String): String {
+        return """
+            const-string v0, "$value"
+            sput-object v0, $classType->$fieldName:Ljava/lang/String;
+        """.trimIndent()
+    }
+
     // ── internal register resolution ────────────────────────────────────
 
     /**

@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.2.0-dev.3",
   "patches": [
     {
       "name": "Disable Bugsnag Telemetry",
@@ -38,6 +38,18 @@
       "options": []
     },
     {
+      "name": "Make UI look like Pro",
+      "description": "Changes the app title to 'Moon+ Reader Pro' and removes the 'Remove Ads' button from the drawer.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.flyersoft.moonreader": [
+          "10.5"
+        ]
+      },
+      "options": []
+    },
+    {
       "name": "Quick Cursor PRO",
       "description": "Unlock all PRO features",
       "use": true,
@@ -67,6 +79,42 @@
       "compatiblePackages": {
         "com.pinterest": [
           "14.11.0"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Unlock CalcNote Pro",
+      "description": "Unlocks all Pro features and removes ads.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.burton999.notecal": [
+          "2.25.107"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Unlock Moon+ Reader Pro",
+      "description": "Unlocks Pro features including PDF support, ad-free experience, and more.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.flyersoft.moonreader": [
+          "10.5"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Unlock Symfonium",
+      "description": "Unlocks the trial version of Symfonium.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "app.symfonik.music.player": [
+          "14.0.0"
         ]
       },
       "options": []
