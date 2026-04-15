@@ -42,4 +42,14 @@ object Constants {
             AppTarget(version = null)
         )
     )
+
+    val COMPATIBILITY_SYMFONIUM = Compatibility(
+        name = "Symfonium",
+        packageName = "app.symfonik.music.player",
+        apkFileType = ApkFileType.APK,
+        appIconColor = 0xbe3a2a,
+        targets = listOf(
+            AppTarget(version = "14.0.0")
+        )
+    )
 }
