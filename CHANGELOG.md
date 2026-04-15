@@ -1,3 +1,10 @@
+# [1.2.0-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.1.1...v1.2.0-dev.1) (2026-04-15)
+
+
+### Features
+
+* **Symfonium:** unlock trial version ([4488aca](https://github.com/binarymend/morphe-patches/commit/4488aca166ebc0a182c5b4f2bc8f030d08b8a9b1))
+
 ## [1.1.1](https://github.com/binarymend/morphe-patches/compare/v1.1.0...v1.1.1) (2026-04-13)
 
 
