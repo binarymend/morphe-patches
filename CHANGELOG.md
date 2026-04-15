@@ -1,3 +1,10 @@
+# [1.2.0-dev.2](https://github.com/binarymend/morphe-patches/compare/v1.2.0-dev.1...v1.2.0-dev.2) (2026-04-15)
+
+
+### Features
+
+* **Moon+ Reader:** unlock pro ([7a4a4d7](https://github.com/binarymend/morphe-patches/commit/7a4a4d7471b1ff8b330a61768421fc9cfba84d84))
+
 # [1.2.0-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.1.1...v1.2.0-dev.1) (2026-04-15)
 
 
