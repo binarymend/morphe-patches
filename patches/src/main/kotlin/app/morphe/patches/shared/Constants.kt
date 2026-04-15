@@ -58,4 +58,13 @@ object Constants {
                     appIconColor = 0x658ff4,
                     targets = listOf(AppTarget(version = "10.5"))
             )
+
+    val COMPATIBILITY_CALCNOTE =
+            Compatibility(
+                    name = "CalcNote",
+                    packageName = "com.burton999.notecal",
+                    apkFileType = ApkFileType.APK,
+                    appIconColor = 0x00897B,
+                    targets = listOf(AppTarget(version = "2.25.107"))
+            )
 }
