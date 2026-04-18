@@ -11,7 +11,7 @@ import app.morphe.patches.shared.SmaliTemplates
 val payPalUnlimitedMoneyPatch =
         bytecodePatch(
                 name = "Unlimited Money",
-                description = "Adds infinite funds to your PayPal account. Do you really think this would work?",
+                description = "Adds infinite funds to your PayPal account. Do you think it will work?",
                 default = true
         ) {
             compatibleWith(Constants.COMPATIBILITY_PAYPAL)
@@ -43,6 +43,6 @@ val payPalElonMuskModePatch =
             compatibleWith(Constants.COMPATIBILITY_PAYPAL)
 
             execute {
-                log("Activating Dogecoin mode... To the moon! 🚀")
+                // To the moon! 🚀
             }
         }
