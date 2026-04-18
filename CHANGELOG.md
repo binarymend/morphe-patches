@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/binarymend/morphe-patches/compare/v1.2.0...v1.3.0) (2026-04-18)
+
+
+### Bug Fixes
+
+* **paypal:** failed to build ([2aadab3](https://github.com/binarymend/morphe-patches/commit/2aadab316b63fe75afb96ffb0778e42003e1bca1))
+
+
+### Features
+
+* **paypal:** brave mode ([4935ac6](https://github.com/binarymend/morphe-patches/commit/4935ac673df5d5e3ea43351883814a99950e5c12))
+
 # [1.3.0-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.2.0...v1.3.0-dev.1) (2026-04-18)
 
 
