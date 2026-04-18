@@ -1,6 +1,40 @@
 {
-  "version": "1.2.0",
+  "version": "v1.0.0-dev.1",
   "patches": [
+    {
+      "name": "Quick Cursor PRO",
+      "description": "Unlock all PRO features",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.quickcursor": null
+      },
+      "options": []
+    },
+    {
+      "name": "Disable Telemetry",
+      "description": "Disables AppStartTracker and other telemetry points.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.12.5"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Remove Ads",
+      "description": "Disables all ad feature toggles globally.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.truecaller": [
+          "26.12.5"
+        ]
+      },
+      "options": []
+    },
     {
       "name": "Disable Bugsnag Telemetry",
       "description": "Disables Bugsnag crash reporting and analytics.",
@@ -26,52 +60,6 @@
       "options": []
     },
     {
-      "name": "Disable Telemetry",
-      "description": "Disables AppStartTracker and other telemetry points.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.truecaller": [
-          "26.12.5"
-        ]
-      },
-      "options": []
-    },
-    {
-      "name": "Make UI look like Pro",
-      "description": "Changes the app title to 'Moon+ Reader Pro' and removes the 'Remove Ads' button from the drawer.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.flyersoft.moonreader": [
-          "10.5"
-        ]
-      },
-      "options": []
-    },
-    {
-      "name": "Quick Cursor PRO",
-      "description": "Unlock all PRO features",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.quickcursor": null
-      },
-      "options": []
-    },
-    {
-      "name": "Remove Ads",
-      "description": "Disables all ad feature toggles globally.",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.truecaller": [
-          "26.12.5"
-        ]
-      },
-      "options": []
-    },
-    {
       "name": "Remove Promoted Pins",
       "description": "Disables ad detection logic globally. Safe for Home feed.",
       "use": true,
@@ -84,13 +72,23 @@
       "options": []
     },
     {
-      "name": "Unlock CalcNote Pro",
-      "description": "Unlocks all Pro features and removes ads.",
+      "name": "Unlock aCalendar+",
+      "description": "Unlocks all aCalendar+ features.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
-        "com.burton999.notecal": [
-          "2.25.107"
+        "org.withouthat.acalendar": null
+      },
+      "options": []
+    },
+    {
+      "name": "Unlock Symfonium",
+      "description": "Unlocks the trial version of Symfonium.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "app.symfonik.music.player": [
+          "14.0.0"
         ]
       },
       "options": []
@@ -108,24 +106,46 @@
       "options": []
     },
     {
-      "name": "Unlock Symfonium",
-      "description": "Unlocks the trial version of Symfonium.",
+      "name": "Make UI look like Pro",
+      "description": "Changes the app title to 'Moon+ Reader Pro' and removes the 'Remove Ads' button from the drawer... Because why not?",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
-        "app.symfonik.music.player": [
-          "14.0.0"
+        "com.flyersoft.moonreader": [
+          "10.5"
         ]
       },
       "options": []
     },
     {
-      "name": "Unlock aCalendar+",
-      "description": "Unlocks all aCalendar+ features.",
+      "name": "Unlock CalcNote Pro",
+      "description": "Unlocks all Pro features and removes ads.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
-        "org.withouthat.acalendar": null
+        "com.burton999.notecal": [
+          "2.25.107"
+        ]
+      },
+      "options": []
+    },
+    {
+      "name": "Unlimited Money (April Fools)",
+      "description": "Adds infinite funds to your PayPal account. Happy April Fools' Day!",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.paypal.android.p2pmobile": null
+      },
+      "options": []
+    },
+    {
+      "name": "Elon Musk Mode",
+      "description": "Renames your account to 'Elon Musk' and sets your currency to Dogecoin.",
+      "use": false,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.paypal.android.p2pmobile": null
       },
       "options": []
     }

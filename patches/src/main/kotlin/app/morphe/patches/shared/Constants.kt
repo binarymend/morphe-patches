@@ -67,4 +67,13 @@ object Constants {
                     appIconColor = 0x00897B,
                     targets = listOf(AppTarget(version = "2.25.107"))
             )
+
+    val COMPATIBILITY_PAYPAL =
+            Compatibility(
+                    name = "PayPal",
+                    packageName = "com.paypal.android.p2pmobile",
+                    apkFileType = ApkFileType.APK,
+                    appIconColor = 0x003087,
+                    targets = listOf(AppTarget(version = null))
+            )
 }
