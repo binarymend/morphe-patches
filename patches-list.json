@@ -1,4 +1,4 @@
-{
+﻿{
   "version": "1.3.0",
   "patches": [
     {
@@ -34,16 +34,6 @@
         "com.truecaller": [
           "26.12.5"
         ]
-      },
-      "options": []
-    },
-    {
-      "name": "Elon Musk Mode",
-      "description": "Renames your account to 'Elon Musk' and sets your currency to Dogecoin.",
-      "use": false,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.paypal.android.p2pmobile": null
       },
       "options": []
     },
@@ -92,17 +82,7 @@
         ]
       },
       "options": []
-    },
-    {
-      "name": "Unlimited Money",
-      "description": "Adds infinite funds to your PayPal account. Do you think it will work?",
-      "use": true,
-      "dependencies": [],
-      "compatiblePackages": {
-        "com.paypal.android.p2pmobile": null
-      },
-      "options": []
-    },
+    }
     {
       "name": "Unlock CalcNote Pro",
       "description": "Unlocks all Pro features and removes ads.",
