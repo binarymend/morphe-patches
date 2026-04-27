@@ -1,3 +1,10 @@
+## [1.3.1-dev.1](https://github.com/binarymend/morphe-patches/compare/v1.3.0...v1.3.1-dev.1) (2026-04-26)
+
+
+### Bug Fixes
+
+* remove paypal ([ea252e9](https://github.com/binarymend/morphe-patches/commit/ea252e9e696d4a124305d28d4261e599eabe1de3))
+
 # [1.3.0](https://github.com/binarymend/morphe-patches/compare/v1.2.0...v1.3.0) (2026-04-18)
 
 
